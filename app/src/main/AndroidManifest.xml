@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tk_21_25"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.FirstActivity_1111111"
+            android:exported="true"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Activity_hldgl_21"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.Activity_zhgl_22"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.Activity_zhsz_23"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.Activity_shzs_24"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.Activity_lkcx_25"
+            android:screenOrientation="landscape" />
+        <activity android:name=".activity.Activity_sjfx_26"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.Activity_shzs_27"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.Activity_gjcx_28"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.Activity_sshj_29"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.Activity_clwz_30"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.Activity_clwz_30_2"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.Activity_yjfk_31"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.Activity_yjfk_31_1"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.Activity_ewm_37"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.Activity_ewm_37_1"
+            android:screenOrientation="landscape"/>
+    </application>
+
+</manifest>

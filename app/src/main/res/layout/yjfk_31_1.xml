@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#0098CB"
+        android:layout_height="130dp">
+        <ImageView
+            android:src="@drawable/caidan"
+            android:layout_width="130dp"
+            android:layout_marginLeft="35dp"
+            android:layout_height="130dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的意见"
+            android:textColor="@color/white"
+            android:layout_marginLeft="470dp"
+            android:textStyle="bold"
+            android:textSize="85dp"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview_yjfk_31_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" />
+
+</LinearLayout>

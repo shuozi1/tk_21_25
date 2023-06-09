@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#0099cc"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/caidan"
+            android:layout_height="120dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="账户设置"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="85dp" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_zhsz_23_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:text="我的1-4号车账户余额告警阈值为50元"
+        android:textSize="48dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="240dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置账户余额告警阈值为："
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/et_zhsz_23_money"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:textSize="35dp"
+            android:layout_gravity="center"
+            android:inputType="number"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="元"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btn_zhsz_23_sz"
+            android:layout_width="180dp"
+            android:layout_height="65dp"
+            android:text="设置"
+            android:textSize="30dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/btn_hk"/>
+    </LinearLayout>
+</LinearLayout>

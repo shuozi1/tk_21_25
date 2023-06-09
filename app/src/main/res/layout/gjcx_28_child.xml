@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_gjcx_28_child"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一号公交车"
+        android:textSize="55dp"
+        android:layout_marginLeft="250dp"
+        />
+    <TextView
+        android:id="@+id/tv2_gjcx_28_child"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1000米"
+        android:textSize="55dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="30dp"
+        />
+</LinearLayout>

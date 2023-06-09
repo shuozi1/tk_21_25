@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#0098CB"
+        android:layout_height="130dp">
+        <ImageView
+            android:src="@drawable/caidan"
+            android:layout_width="130dp"
+            android:layout_marginLeft="35dp"
+            android:layout_height="130dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数据分析"
+            android:textColor="@color/white"
+            android:layout_marginLeft="470dp"
+            android:textSize="85dp"/>
+    </RelativeLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_sjfx_26"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_height="650dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:id="@+id/rg_sjfx_26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <RadioButton
+                android:id="@+id/rb_sjfx_26_1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:button="@drawable/radiobutton_size"
+                />
+            <RadioButton
+                android:id="@+id/rb_sjfx_26_2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:button="@drawable/radiobutton_size"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+</LinearLayout>

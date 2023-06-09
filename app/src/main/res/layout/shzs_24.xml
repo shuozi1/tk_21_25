@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#0099cc"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/caidan"
+            android:layout_height="120dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="生活助手"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="85dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="330dp">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_shzs_wd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19°"
+                android:textColor="#3f51b5"
+                android:layout_marginLeft="40dp"
+                android:textSize="145dp"/>
+            <TextView
+                android:id="@+id/tv_shzs_todaywd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="今天：12-24℃"
+                android:layout_marginTop="160dp"
+                android:textColor="#3f51b5"
+                android:layout_marginLeft="40dp"
+                android:textSize="45dp"/>
+            <ImageView
+                android:id="@+id/ig_shzs_finish"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="400dp"
+                android:src="@drawable/finsh"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_height="match_parent">
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/lc_shzs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

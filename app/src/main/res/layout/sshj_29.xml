@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#0097CA"
+        android:layout_height="130dp">
+        <ImageView
+            android:src="@drawable/caidan"
+            android:layout_width="130dp"
+            android:layout_marginLeft="35dp"
+            android:layout_height="130dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="实时环境"
+            android:textColor="@color/white"
+            android:layout_marginLeft="470dp"
+            android:textSize="85dp"/>
+    </RelativeLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_sshj_29"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:id="@+id/rg_sshj_29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <RadioButton
+                android:id="@+id/rb_sshj_29_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="30dp"
+                android:button="@drawable/radiobutton_size"/>
+            <RadioButton
+                android:id="@+id/rb_sshj_29_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="30dp"
+                android:button="@drawable/radiobutton_size"/>
+            <RadioButton
+                android:id="@+id/rb_sshj_29_3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:button="@drawable/radiobutton_size"/>
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

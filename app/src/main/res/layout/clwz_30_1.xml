@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#0098CB"
+        android:layout_height="130dp">
+        <ImageView
+            android:src="@drawable/caidan"
+            android:layout_width="130dp"
+            android:layout_marginLeft="35dp"
+            android:layout_height="130dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="违章视频"
+            android:textColor="@color/white"
+            android:layout_marginLeft="470dp"
+            android:textSize="85dp"/>
+    </RelativeLayout>
+    <VideoView
+        android:id="@+id/vv_clwz_30_1"
+        android:layout_width="750dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"/>
+</LinearLayout>
