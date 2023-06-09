@@ -106,6 +106,7 @@ public class Activity_ewm_37_1 extends AppCompatActivity implements View.OnClick
             bitmap.setPixels(pix,0,300,0,0,300,300);
             mIgEwmzf371Ig2.setImageBitmap(bitmap);
             mIgEwmzf371Ig1.setImageBitmap(bitmap);
+            System.out.println("21312312312");
         } catch (WriterException e) {
             throw new RuntimeException(e);
         }
